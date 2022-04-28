@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>True Freeze</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <div class="entire-page">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img src="images/snowflake.svg" width="100%">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#vision">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mechanics">Mechanics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tokenomics">Tokenomics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#partners">Partners</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    <hr>
+    <div class="center-fold">
+
+      <h2 id="vision">Vision</h2>
+      <h3>True Freeze is DeFi's first patience primitive.</h3>
+      <p> Price volatility is a key blocker to broader crypto adoption. Holding assets that
+        can go up and down double digit percentages all within the same month is too
+        stressful for many regular people. </p>
+      <p>It's hard to HODL and you don't get paid to do it- <strong>until now</strong>.
+        True Freeze tokenizes patience. Allowing the market to form a baseline
+        rate of return for people to lock their assets out of circulation.</p>
+
+      <h3>True Freeze is a public good.</h3>
+
+      <p>Bitcoin was launched and left. It was entrusted to the community with no centralized
+        control or admin privileges. It doesn't have a DAO nor a governance token. It
+        is a trustless mechanism of turning energy into value (proof of work).</p>
+      <p>True Freeze is a similar public good. Launched and left to function on its own for
+        hundreds of years with no governance, emergency powers, or admin controls.
+        A trustless mechanism for turning holding into value. (proof of patience). </p>
+
+      <h3>True Freeze is composable.</h3>
+      <p>Any protocol, DAO, fund, or person(s) with ETH
+        (or other asset when True Freeze is duplicated on other chains, e.g. MATIC on Polygon)
+        can confirm on-chain a commitment to lock their funds out of the market for a period of time.
+        In exchange they mint Freezer ETH (frETH) the yield token and a Freezer NFT
+        serving as a Certificate of Deposit.</p>
+
+      <img class="center-img" src="images/FreezerNFT_100wETH.svg" alt="" width="250px">
+      <br>
+      <p>This Freezer NFT can be bought/sold on any NFT marketplace,
+        acting similar to an on-chain zero-coupon bond.</p>
+
+      <h3>True Freeze is risk-minimized defi.</h3>
+
+      <p> True Freeze does <em>nothing</em> with deposits.
+        It is <strong>not</strong> forwarded to a yield farm or staked or paired with
+        any other asset for liquidity fees.
+        There are <strong>no</strong> price oracles or liquidations.
+        It is as close as possible to cold storage, but with yield.</p>
+
+      <p>
+        This is a critical point. Many people's first reaction to this design is,
+        "why not double-dip and use [insert strategy] to get more yield". This is a
+        fundamental misundertanding of finance. The goal of a financial portfolio is
+        to maximize <em>risk-adjusted</em> returns. In traditional finance markets we
+        see that lower risk is often lower return, but, with lower risks also comes a
+        a larger market. </p>
+      <div class="card">
+        <img src="images/addressable_market1.svg">
+        <img class="center-img img-top" src="images/addressable_market2.svg">
+      </div>
+      <p>True Freeze risk-minimized DeFi can serve as an on-ramp to the
+        10s of millions of Ether held by people who have never used a smart contract before.
+      </p>
+
+      <h2 id="mechanics">Mechanics</h2>
+      <h3>Vocabulary</h3>
+      <div class="vocab-table">
+        <img src="images/vocab_table.png" alt="">
+      </div>
+      <h3>Deposit</h3>
+      <p>Users deposit ETH and specify how long they are willing to commit to locking
+        it out of circulation.</p>
+      <p>For example, here someone deposits 100 ETH for 2 Years.</p>
+      <img class="center-img" src="images/FreezerNFT_100wETH.svg" alt="" width="250px">
+      <h3>Freezer Yield Token</h3>
+      <p>They receive 1 freezer ETH (frETH) per ETH per Year. Here,
+        100 ETH locked out of circulation on January 20th, 2022 for
+        2 years (until January 20th 2024) mints 200 frETH.</p>
+      <h3>Freezer NFT</h3>
+      <p>The user also receives a Certicate of Deposit represented by
+        the Freezer NFT. This NFT is a fully on-chain ERC721 NFT with no reliance
+        on external file storage for the image or metadata. This NFT is tradeable
+        on any NFT marketplace and is a 1 to 1 representation of ETH locked in True Freeze.</p>
+      <h3>Redemption</h3>
+      <p>Anyone holding a Freezer NFT can redeem the NFT to withdraw the corresponding ETH
+        in True Freeze with 0 fees after the Maturity Date.</p>
+
+      <p>Note: Redemption prior to the maturity date, charges <strong>2 fees:</strong>
+        a 0.25% ETH penalty and a frETH fee. (possibly more than minted!)</p>
+      <img class="center-img" src="images/frETH_yield_curve.svg" alt="">
+      <p>On the lock date, an immediate withdrawal requires a fee of 20% more frETH than minted.
+        So on the 100 ETH NFT example, withdrawal on Jan 20, 2022 would require 1.2 * 200 = 240 frETH, in
+        addition to a 0.0025 * 100 = 0.25 ETH penalty. The fee falls every day, falling
+        more in the final 3rd of the lock duration, until you can withdraw on or after the maturity date for
+        no frETH fees and no ETH penalty.</p>
+
+      <h3>Freezer Revenue Token</h3>
+      <p>
+        50% of frETH fees above the original amount minted (rest burned) and
+        100% of ETH penalties go to stakers of the Freezer Revenue Token (FRZ).
+        To incentivize continual use of the True Freeze ecosystem, the FRZ token supply is inflationary.
+        In the first year, the FRZ supply will inflate by 10%. The next year 9%. Each year the
+        inflation rate falls until the 10 year. After year 10 and <em>forever after</em> it will
+        inflate at 2% per year.
+      </p>
+      <div class="card">
+        <img class src="images/FRZ_supply_growth1.svg" alt="">
+        <img class="img-top" src="images/FRZ_supply_growth2.svg" alt="">
+      </div>
+      <p> This 10 year Accumulation Phase of high inflation bootstraps use of the protocol so that
+        continued active use of the ecosystem is rewarded more than simply receiving the airdrop and not
+        using the primitive.</p>
+
+      <p> FRZ is primarily earned by <strong>burning</strong> frETH. Forever after, new FRZ minted each year
+        is shared proportionally among everyone who has burned frETH in the history of the protocol.
+        This creates a competitive mechanism for protocols to integrate True Freeze into their
+        yield strategies and continuously earn & burn frETH, receive FRZ, and stake it for frETH fees and ETH penalties.</p>
+
+      <h2 id="tokenomics">Tokenomics</h2>
+      <h3>Finance Context</h3>
+      <p>Certificates of Deposit are low risk investments available at banks
+        globally. Although this low risk often means lower returns relative to stocks and other investments,
+        they are a popular part of many financial portfolios.</p>
+
+      <p>The True Freeze ecosystem rewards creating and trading CDs with
+        market determined interest rates (the frETH yield token's value) and community owned revenue
+        (the fees and penalties paid to FRZ stakers). </p>
+
+      <p>For trading Freeer NFTs, zero-coupon bond pricing is applicable. In traditional
+        finance a zero coupon bond is an investment that pays its amount (par value) at maturity, but does not
+        pay interest along the way. Thus these bonds trade <em>below</em> their par value. The difference in
+        price paid and the par value is the <em>implicit</em> return. For example, if you pay $95 for a bond
+        that gives you $100 in 1 year; then you earned $5 in returns (5/95 = 5.2%).</p>
+
+      <p>This a core innovation of True Freeze - the ability to buy ETH with ETH profitably.</p>
+
+      <h3>Freezer Yield Token</h3>
+      <p>frETH, the yield token minted for creating Freezer NFTs, allows for new profitable
+        ways for those interested in low risk (no oracles, no impermanent loss, no liquidations) DeFi
+        to earn from confirming their patience on-chain.</p>
+
+      <p>Using the Freezer NFT example above, imagine Alice locks 100 ETH for 2 years and mints 200 frETH.
+        Bob is willing to buy Alice's CD for 95 ETH, securing a (5 / 95 = 5.2%) implicit return on ETH over 2 years.
+        Alice can profitably accept that trade as long as 200 frETH > (5 ETH + any related transaction costs).</p>
+      <p> If 1 frETH = 0.04 ETH, then 200 frETH = 8 ETH. She can profit nearly 3 ETH from this trade. </p>
+
+      <p>Note, in this case, Bob could lock his 95 ETH for 1.32 Years, receive 125 frETH and sell that for 5 ETH and
+        be better off. The economic theory is that the appropriate price for these Freezer NFTs change with frETH's price
+        in ETH. Changes in the market price of frETH represent changing time preferences for ETH. At full maturity,
+        frETH absorbs the volatility of ETH and becomes the benchmark rate for all of ETH related DeFi!</p>
+
+      <h3>Freezer Revenue Token</h3>
+      <p>The FRZ revenue token acts as just like a stock receiving dividends. It's value will
+        fluctuate as people forecast fees and penalties from early withdrawals. To support long term
+        use of True Freeze, FRZ inflates, so that staker's percent of revenue ownership falls over time. To keep up,
+        stakers must compete to burn frETH and retain their percent of newly minted FRZ earned.</p>
+
+      <h3>Flywheel</h3>
+      <p>The True Freeze Ecosystem has multiple counteracting effects for changes in
+        the market price of ETH and frETH. There are 7 core principles underlying this flywheel:</p>
+      <div class="center-img">
+        <div class="custom-list">
+          <p>1. Lower frETH prices means lower early withdrawal costs in ETH terms.</p>
+          <p>2. When early withdrawals cost less, more of them happen, leading to revenue to FRZ stakers.</p>
+          <p>3. More revenue to FRZ stakers combined with lower frETH prices means more frETH burned to earn FRZ.</p>
+          <p>4. 1 frETH burned = 1 ETH out of circulation for 1 year, reducing the circulation of ETH.</p>
+          <p>5. With less ETH in circulation, its price rises (assuming demand does not change),
+            which leads to more early withdrawals (to sell ETH high and rebuy it low).</p>
+          <p>6. To withdraw ETH early requires frETH, so the price of frETH rises.</p>
+          <p>7. When frETH rises, the benefits of locking ETH rises, so more people lock ETH and sell frETH; restarting the flywheel.</p>
+        </div>
+      </div>
+
+      <img class="center-img" src="images/frETH_ETH_tokenomics.svg">
+
+      <h2 id="partners">Partners</h2>
+      <h3>Public Good</h3>
+      <p>Again, True Freeze is designed as a public good. It is immutable upon launch and
+        has no governance nor admin emergency powers. It was developed by Deep Freeze LLC to
+        function for centuries. It has been audited successfully, but otherwise will be provided as-is
+        to the community for as long as the blockchain(s) it lives on functions.</p>
+
+      <p>To support development and initial launch, Deep Freeze LLC will retain 18% of the initial supply of
+        FRZ. This percentage (by design) will rapidly erode as FRZ inflates and forces the
+        insiders (devs 12% & angels 6%) to use the primitive too. We won't
+        be able to sit back and profit without participating for long (by design).</p>
+
+      <h3>Community Development</h3>
+      <p>Generally with public good products like this, a DAO is formed to steward the protocol,
+        fund liquidity incentives, make decisions on add-on features, etc. We find this unnecessarily
+        centralizing. Yes, many people participate in DAOs, but we feel it is not truly a public good
+        unless multiple DAOs and groups are able to contribute to the advancement of the good. For example,
+        it would be too centralizing for a single DAO to manage a single front-end website or control
+        which protocols are allowed to integrate True Freeze into their yield farms.</p>
+
+      <p>For this reason, we are seeking to allocate a larger 20% of the initial supply of FRZ
+        to DAOs, Protocols, and communities who can steward the protocol as part of their
+        ongoing work in building web3. This allocation will function as a grant,
+        there will be no governance or admin oversight on this FRZ. Any groups accepting the grant and
+        failing to support the public good will see their percentage of the network rapidly fall (again, by design)
+        unless they actively use True Freeze.</p>
+
+      <p>The largest percentage of the initial FRZ supply (42%) will go to the community of users via an airdrop with emphasis
+        on builders and active participants in the DeFi community.</p>
+
+      <p>While the economic theory supports a free market approach to pricing frETH and FRZ, the practical reality is
+        that people will earn FRZ in the airdrop and not want it, and people will mint frETH but not want to burn it. As such,
+        it is critical that the True Freeze ecosystem be modular and easy to enter and exit at different points. So 20%
+        of the FRZ initial supply will go to a liquidity incentives program <strong><em>not</em></strong> managed by Deep Freeze LLC.
+        Decentralized Exchange partners are being identified to run liquidity incentives autonomously.</p>
+
+      <h3>Decentralizing Funding Sources</h3>
+      <p>The hope is that by spreading the FRZ revenue token ownership widely, multiple different groups will form that have different
+        ideas on how to build on top of or integrate True Freeze into other protocols.
+        Individuals who see the century+ vision of True Freeze can self-organize (or join partner DAOs)
+      to volunteer their FRZ to initiatives they want to see (e.g., automated strategies).
+    </p>
+
+  <h3>Want to Partner?</h3>
+    <p> DAOs, Protocols, and Builder communities interested in support the True Freeze public good Ecosystem
+    can reach out to <a class = "detail-link" href="https://twitter.com/freeze_llc">Deep Freeze LLC on Twitter</a> prior to launch. The availability of partners is critical
+    for determining which blockchains to launch True Freeze.</p>
+    </div>
+    <hr>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img src="images/snowflake.svg" width="100%">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/freeze_llc">Twitter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#vision">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mechanics">Mechanics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tokenomics">Tokenomics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#partners">Partners</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+</div>
+</body>
+</html>

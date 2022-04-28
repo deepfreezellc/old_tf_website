@@ -1,0 +1,29 @@
+<svg viewBox = "0 0 250 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat');
+      .snowflake-logo {
+      fill: #fff;
+    }
+    .logo-text {
+      fill: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 25px;
+
+  </style>
+
+      <!-- snowflake logo -->
+      <g transform = "translate(10,10)">
+        <path
+          class="snowflake-logo"
+          d="M19.41,5.77l-3.47,4.89L12.46,5.77,15.94,0ZM7.54,7.53l1.2,4.88,
+      4.41.74-.74-4.41ZM0,15.93l5.77,3.48,4.89-3.48L5.77,12.45Zm7.53,8.4,
+      4.88-1.2.74-4.42-4.41.75Zm8.4,7.54,3.48-5.77-3.48-4.89L12.45,
+      26.1Zm8.4-7.53-1.2-4.88-4.42-.74.75,4.41Zm7.54-8.4L26.1,
+      12.46l-4.89,3.48,4.89,3.47Zm-7.53-8.4-4.88,1.2-.74,4.41,4.41-.74Z"/>
+        <!-- DEEP FREEZE Label -->
+        <text class="logo-text" x="40" y="25">
+          TRUE FREEZE
+        </text>
+      </g>
+
+</svg>
