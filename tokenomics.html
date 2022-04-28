@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>True Freeze</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <div class="entire-page">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/snowflake.svg" width="100%">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="vision.html">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mechanics.html">Mechanics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tokenomics.html">Tokenomics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="partners.html">Partners</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+
+    <div class="center-fold">
+      <h2 id="tokenomics">Tokenomics</h2>
+      <h3 id = "finance">Finance Context</h3>
+      <p>Certificates of Deposit are low risk investments available at banks
+        globally. Although this low risk often means lower returns relative to stocks and other investments,
+        they are a popular part of many financial portfolios.</p>
+
+      <p>The True Freeze ecosystem rewards creating and trading CDs with
+        market determined interest rates (the frETH yield token's value) and community owned revenue
+        (the fees and penalties paid to FRZ stakers). </p>
+
+      <p>For trading Freeer NFTs, zero-coupon bond pricing is applicable. In traditional
+        finance a zero coupon bond is an investment that pays its amount (par value) at maturity, but does not
+        pay interest along the way. Thus these bonds trade <em>below</em> their par value. The difference in
+        price paid and the par value is the <em>implicit</em> return. For example, if you pay $95 for a bond
+        that gives you $100 in 1 year; then you earned $5 in returns (5/95 = 5.2%).</p>
+
+      <p>This a core innovation of True Freeze - the ability to buy ETH with ETH profitably.</p>
+
+      <h3 id = "freth">Freezer Yield Token</h3>
+      <p>frETH, the yield token minted for creating Freezer NFTs, allows for new profitable
+        ways for those interested in low risk (no oracles, no impermanent loss, no liquidations) DeFi
+        to earn from confirming their patience on-chain.</p>
+
+      <p>Using the Freezer NFT example above, imagine Alice locks 100 ETH for 2 years and mints 200 frETH.
+        Bob is willing to buy Alice's CD for 95 ETH, securing a (5 / 95 = 5.2%) implicit return on ETH over 2 years.
+        Alice can profitably accept that trade as long as 200 frETH > (5 ETH + any related transaction costs).</p>
+      <p> If 1 frETH = 0.04 ETH, then 200 frETH = 8 ETH. She can profit nearly 3 ETH from this trade. </p>
+
+      <p>Note, in this case, Bob could lock his 95 ETH for 1.32 Years, receive 125 frETH and sell that for 5 ETH and
+        be better off. The economic theory is that the appropriate price for these Freezer NFTs change with frETH's price
+        in ETH. Changes in the market price of frETH represent changing time preferences for ETH. At full maturity,
+        frETH absorbs the volatility of ETH and becomes the benchmark rate for all of ETH related DeFi!</p>
+
+      <h3 id = "frz">Freezer Revenue Token</h3>
+      <p>The FRZ revenue token acts as just like a stock receiving dividends. It's value will
+        fluctuate as people forecast fees and penalties from early withdrawals. To support long term
+        use of True Freeze, FRZ inflates, so that staker's percent of revenue ownership falls over time. To keep up,
+        stakers must compete to burn frETH and retain their percent of newly minted FRZ earned.</p>
+
+      <h3 id = "flywheel">Flywheel</h3>
+      <p>The True Freeze Ecosystem has multiple counteracting effects for changes in
+        the market price of ETH and frETH. There are 7 core principles underlying this flywheel:</p>
+      <div class="center-img">
+        <div class="custom-list">
+          <p>1. Lower frETH prices means lower early withdrawal costs in ETH terms.</p>
+          <p>2. When early withdrawals cost less, more of them happen, leading to revenue to FRZ stakers.</p>
+          <p>3. More revenue to FRZ stakers combined with lower frETH prices means more frETH burned to earn FRZ.</p>
+          <p>4. 1 frETH burned = 1 ETH out of circulation for 1 year, reducing the circulation of ETH.</p>
+          <p>5. With less ETH in circulation, its price rises (assuming demand does not change),
+            which leads to more early withdrawals (to sell ETH high and rebuy it low).</p>
+          <p>6. To withdraw ETH early requires frETH, so the price of frETH rises.</p>
+          <p>7. When frETH rises, the benefits of locking ETH rises, so more people lock ETH and sell frETH; restarting the flywheel.</p>
+        </div>
+      </div>
+
+      <img class="center-img" src="images/frETH_ETH_tokenomics.svg">
+
+    </div>
+
+    <hr>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/snowflake.svg" width="100%">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/freeze_llc">Twitter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vision.html">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mechanics.html">Mechanics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tokenomics.html">Tokenomics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="partners.html">Partners</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div>
+</body>
+</html>

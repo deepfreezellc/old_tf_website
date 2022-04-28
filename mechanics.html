@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>True Freeze</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <div class="entire-page">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/snowflake.svg" width="100%">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="vision.html">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mechanics.html">Mechanics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tokenomics.html">Tokenomics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="partners.html">Partners</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+
+    <div class="center-fold">
+
+        <h2 id="mechanics">Mechanics</h2>
+        <h3>Vocabulary</h3>
+        <div class="vocab-table">
+          <img src="images/vocab_table.png" alt="">
+        </div>
+        <h3 id = "deposit">Deposit</h3>
+        <p>Users deposit ETH and specify how long they are willing to commit to locking
+          it out of circulation.</p>
+        <p>For example, here someone deposits 100 ETH for 2 Years.</p>
+        <img class="center-img" src="images/FreezerNFT_100wETH.svg" alt="" width="250px">
+        <h3 id = "freth">Freezer Yield Token</h3>
+        <p>They receive 1 freezer ETH (frETH) per ETH per Year. Here,
+          100 ETH locked out of circulation on January 20th, 2022 for
+          2 years (until January 20th 2024) mints 200 frETH.</p>
+        <h3 id = "nft">Freezer NFT</h3>
+        <p>The user also receives a Certicate of Deposit represented by
+          the Freezer NFT. This NFT is a fully on-chain ERC721 NFT with no reliance
+          on external file storage for the image or metadata. This NFT is tradeable
+          on any NFT marketplace and is a 1 to 1 representation of ETH locked in True Freeze.</p>
+        <h3 id = "redeem">Redemption</h3>
+        <p>Anyone holding a Freezer NFT can redeem the NFT to withdraw the corresponding ETH
+          in True Freeze with 0 fees after the Maturity Date.</p>
+
+        <p>Note: Redemption prior to the maturity date, charges <strong>2 fees:</strong>
+          a 0.25% ETH penalty and a frETH fee. (possibly more than minted!)</p>
+        <img class="center-img" src="images/frETH_yield_curve.svg" alt="">
+        <p>On the lock date, an immediate withdrawal requires a fee of 20% more frETH than minted.
+          So on the 100 ETH NFT example, withdrawal on Jan 20, 2022 would require 1.2 * 200 = 240 frETH, in
+          addition to a 0.0025 * 100 = 0.25 ETH penalty. The fee falls every day, falling
+          more in the final 3rd of the lock duration, until you can withdraw on or after the maturity date for
+          no frETH fees and no ETH penalty.</p>
+
+        <h3 id = "frz">Freezer Revenue Token</h3>
+        <p>
+          50% of frETH fees above the original amount minted (rest burned) and
+          100% of ETH penalties go to stakers of the Freezer Revenue Token (FRZ).
+          To incentivize continual use of the True Freeze ecosystem, the FRZ token supply is inflationary.
+          In the first year, the FRZ supply will inflate by 10%. The next year 9%. Each year the
+          inflation rate falls until the 10 year. After year 10 and <em>forever after</em> it will
+          inflate at 2% per year.
+        </p>
+        <div class="card">
+          <img class src="images/FRZ_supply_growth1.svg" alt="">
+          <img class="img-top" src="images/FRZ_supply_growth2.svg" alt="">
+        </div>
+        <p> This 10 year Accumulation Phase of high inflation bootstraps use of the protocol so that
+          continued active use of the ecosystem is rewarded more than simply receiving the airdrop and not
+          using the primitive.</p>
+
+        <p> FRZ is primarily earned by <strong>burning</strong> frETH. Forever after, new FRZ minted each year
+          is shared proportionally among everyone who has burned frETH in the history of the protocol.
+          This creates a competitive mechanism for protocols to integrate True Freeze into their
+          yield strategies and continuously earn & burn frETH, receive FRZ, and stake it for frETH fees and ETH penalties.</p>
+
+    </div>
+
+    <hr>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/snowflake.svg" width="100%">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/freeze_llc">Twitter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vision.html">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mechanics.html">Mechanics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tokenomics.html">Tokenomics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="partners.html">Partners</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div>
+</body>
+</html>
